@@ -17,6 +17,7 @@ import bo.User;
 
 public class EmailService {
 	DriverManager driverManager = DriverManagerFactory.getManager(DriverType.CHROME);
+// 	please add "private" to driverManager
 
 	public boolean isLogin(User user, String text) {
 		Reporter.log("Login to mail.ru by: " + user, 2, true);
