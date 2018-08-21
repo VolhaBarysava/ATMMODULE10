@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 //import cucumber.api.testng.AbstractTestNGCucumberTests;
+// please remove commented code
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
@@ -19,3 +20,5 @@ import cucumber.api.junit.Cucumber;
 
 public class RunnerCucumberTest {}
 //public class RunnerCucumberTest extends AbstractTestNGCucumberTests {}
+// please remove commented code
+
