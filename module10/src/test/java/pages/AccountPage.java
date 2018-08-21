@@ -67,5 +67,6 @@ public class AccountPage extends BasePage {
 	public WebElement getMailDraftMenuLink(){
 		return mailDraftMenuLink;
 	}
+// 	please remove this method and move mailDraftMenuLink locator to BasketPage
 
 }
